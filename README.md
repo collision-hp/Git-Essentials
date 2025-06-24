@@ -1,9 +1,7 @@
-# Git-Essentials
-A concise and practical collection of essential Git commands and usage instructions for beginners and intermediate developers. Perfect for quick reference, learning, and mastering version control with Git.
-
 # 🚀 Git Essentials
 
-A collection of essential Git commands and instructions for beginners and developers. This guide covers all the necessary Git operations with explanations and use-cases. Great for quick reference and learning Git workflows.
+A concise and practical collection of essential Git commands and usage instructions for beginners and intermediate developers. Perfect for quick reference, learning, and mastering version control with Git.
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
