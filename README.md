@@ -5,35 +5,56 @@ A concise and practical collection of essential Git commands and usage instructi
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📂 General Git Commands
+# 📂 General Git Commands
 
-  mkdir project                    # Create a new folder
-  git init                         # Initialize Git repo (.git)
-  ls -a                            # Show all files including hidden (.git)
-  touch new.java                   # Create a new file
-  git status                       # Check the status of files and branch
-  git add .                        # Add all files to the staging area
-  git commit -m "new file upload"  # Commit with a message
-  git restore --staged new.java    # Unstage a file after adding
-  git log                          # View all commits
-  :q or wq                         # Exit from git log or merge editor
+### Create a new folder
+ ``` mkdir project ```
+### Initialize Git repo (.git)
+```git init ```                       
+### Show all files including hidden (.git)
+```  ls -a  ```                          
+### Create a new file
+```  touch new.java```                   
+### Check the status of files and branch
+```  git status ```                      
+### Add all files to the staging area
+```git add .```                        
+### Commit with a message
+```  git commit -m "new file upload" ``` 
+### Unstage a file after adding
+```  git restore --staged new.java```    
+### View all commits
+```  git log```                          
+### Exit from git log or merge editor
+```  :q or wq```                         
+<br>
 
-🗑️ Permanently Delete a File (from local + Git)
+# 🗑️ Permanently Delete a File (from local + Git)
+  ```
   git rm -r names.txt
   git add .
   git commit -m "Deleted names.txt"
+  ```
 
-🔄 Restore or Revert Changes
-  git restore --staged names.txt   # Unstage file
-  git checkout -- names.txt        # Restore file from last commit
+# 🔄 Restore or Revert Changes
+ 1- Unstage file<br>
+ 2-Restore file from last commit
+ ``` 
+ git restore --staged names.txt   
+ git checkout -- names.txt        
+```
 
-🧹 Remove from Git Only (Keep Locally)
-  git rm -r --cached Tribute-Page
-
-🌐 Connect to GitHub Remote
-  git remote add origin https://github.com/your-username/your-repo.git
-
-📤 Push Mechanisms
+# 🧹 Remove from Git Only (Keep Locally)
+```  
+git rm -r --cached Tribute-Page
+```
+# 🌐 Connect to GitHub Remote
+```
+git remote add origin https://github.com/your-username/your-repo.git
+```
+# 🔗Clone to Local Device
+```git clone https://github.com/your-username/your-repo.git```
+# 📤 Push Mechanisms
   git push origin master           # Push to master branch
  ❗Common Errors: Push Rejected / Unrelated Histories
     # Problem: Push Rejected
