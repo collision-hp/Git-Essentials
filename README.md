@@ -56,6 +56,11 @@ git remote add origin https://github.com/your-username/your-repo.git
 ```
 git clone https://github.com/your-username/your-repo.git
 ```
+# ↔️Switch to Main branch(Initially it is main)
+```
+git fetch origin
+git checkout main
+```
 # 📤 Push Mechanisms
   ### Push to master branch
   ```git push origin master```           
